@@ -1,0 +1,39 @@
+{
+  "name": "passgen-bisquitman",
+  "version": "0.0.1",
+  "description": "CLI app for generate password. Training project",
+  "main": "index.js",
+  "bin": {
+    "genpass": "index.js"
+  },
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "lint": "eslint . --fix"
+  },
+  "type": "module",
+  "keywords": [
+    "node",
+    "app",
+    "cli",
+    "generate password",
+    "password",
+    "training project"
+  ],
+  "author": "Bisquitman <lynx8309@gmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bisquitman/passgen-bisquitman.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Bisquitman/passgen-bisquitman/issues"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "nodemon": "^3.0.3",
+    "prettier": "3.2.4"
+  }
+}

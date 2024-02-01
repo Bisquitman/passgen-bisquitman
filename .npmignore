@@ -1,0 +1,10 @@
+node_modules
+.vscode
+.idea
+.editorconfig
+.eslintignore
+.eslintrc
+.gitignore
+.npmignore
+.prettierrc
+package-lock.json
